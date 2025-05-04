@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+}
+.Resume{
+    height: 100%;
+    width: 100%;
+    background-color: #e7e7f4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    flex: 1;
+}
+.photo{
+    height: 150px;
+    width: 120px;
+    float: right;
+}
+.name{
+    text-align: center;
+}
+
+.role{text-align: center;
+    margin-top: 28px;
+    font-size: 1.9rem;
+    margin-bottom: 29px;}
+
+.head{padding-left: 0;
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+p{text-align: justify;
+    font-size: 1.2rem;
+}
+li{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.bottom-container{
+    margin:0px 0px 20px 0px;
+}
+.connection{
+    padding-left: 10px;
+}
+.contact{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+.contact:hover{
+    color: rgb(50, 48, 48);
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: blue;
+}
